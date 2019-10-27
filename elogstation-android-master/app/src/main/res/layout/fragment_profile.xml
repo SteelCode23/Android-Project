@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.elogstation.client.elogstationdrive.DriverView">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/general_spacing"
+        android:contentDescription="@string/desc_google_icon"
+        android:layout_centerHorizontal = "true"
+        android:src="@drawable/account" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_profile"
+        android:layout_below="@+id/profilePic"
+        android:layout_marginTop="@dimen/large_spacing"
+        android:layout_centerHorizontal = "true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/general_text_size" />
+
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_email"
+        android:layout_below="@+id/profileName"
+        android:layout_centerHorizontal = "true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/general_text_size" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileEmail"
+        android:layout_marginTop="@dimen/large_spacing"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logout" />
+
+</RelativeLayout>

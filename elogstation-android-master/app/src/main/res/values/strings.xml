@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Elogstation Drive</string>
+    <string name="title_activity_driver_view">Elogstation Drive</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Configure</string>
+    <string name="title_profile">Profile</string>
+    <string name="login_message">Please login to continue</string>
+    <string name="desc_google_icon">Google Profile</string>
+    <string name="profile_email">email@gmail.com</string>
+    <string name="logout">Logout</string>
+    <string name="loading">Loading...</string>
+    <string name="loggingin">Logging in...</string>
+    <string name="since">since</string>
+    <string name="selectEld">Choose an ELD</string>
+    <string name="selectEldBluetooth">Available ELDs</string>
+
+
+
+    <string name="OFFDUTY">OFF DUTY</string>
+    <string name="SLEEPING">SLEEPING</string>
+    <string name="DRIVING">DRIVING</string>
+    <string name="NOTDRIVING">NOT DRIVING</string>
+
+
+    <string name="internet">Internet</string>
+    <string name="internetDesc">Do you have an active internet connection</string>
+    <string name="api">API</string>
+    <string name="apiDesc">Can you connect to Elogstation API</string>
+    <string name="eldSelected">ELD Access</string>
+    <string name="eldSelectedDesc">Have you selected an ELD</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetoothDesc">Is bluetooth turned on</string>
+    <string name="deviceConnected">ELD Device Connection</string>
+    <string name="deviceConnectedDesc">Connect an ELD</string>
+    <string name="trackingProgress">Tracking Progress</string>
+    <string name="trackingProgressDesc">How many uploads left</string>
+
+    <string name="tryingToConnectToELD">Connecting to nearby ELD. Please wait...</string>
+
+
+
+</resources>
